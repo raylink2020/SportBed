@@ -1,8 +1,10 @@
-/*  Controlling DC Linear Actuators with L298N Motor Driver
+/*  
+ *  Controlling DC Linear Actuators with L298N Motor Driver
  *  Without Speed Changes
  *  Credit to Ryan Chan -- July 17, 2020 -- Tutorial
  *  created 2021
- */ Raymond Link
+ *  Raymond Link
+ */ 
 
  //define pins that L298N are inserted in
  int motor1pin1 2;
