@@ -16,5 +16,5 @@ REQUIREMENTS
 
 Motor Drivers:
 - DC Motors and Linear Actuators: L298N DC 12V motor driver
-- Stepper Motor Driver:
+- Stepper Motor Driver: STEPPERONLINE CNC Stepper Motor Driver 1.0-4.2A 20-50VDC 1/128 Micro-Step Resolutions
 
