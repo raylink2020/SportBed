@@ -7,11 +7,11 @@
  */ 
 
  //define pins that L298N are inserted in
- int motor1pin1 2;
- int motor1pin2 3;
+ int motor1pin1 = 2;
+ int motor1pin2 = 3;
 
- int motor2pin1 4;
- int motor2pin2 5;
+ int motor2pin1 = 4;
+ int motor2pin2 = 5;
 
  void setup() {
   //define pin modes to be outputs (controlling the motors)
