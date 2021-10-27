@@ -16,6 +16,7 @@
 		9478345B2728C99D0050B1A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947834592728C99D0050B1A2 /* LaunchScreen.storyboard */; };
 		947834662728C99D0050B1A2 /* SportBedBluetoothTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947834652728C99D0050B1A2 /* SportBedBluetoothTesterTests.swift */; };
 		947834712728C99D0050B1A2 /* SportBedBluetoothTesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947834702728C99D0050B1A2 /* SportBedBluetoothTesterUITests.swift */; };
+		94783484272900BE0050B1A2 /* bleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94783483272900BE0050B1A2 /* bleTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9478346C2728C99D0050B1A2 /* SportBedBluetoothTesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportBedBluetoothTesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		947834702728C99D0050B1A2 /* SportBedBluetoothTesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportBedBluetoothTesterUITests.swift; sourceTree = "<group>"; };
 		947834722728C99D0050B1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94783483272900BE0050B1A2 /* bleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				9478344D2728C99A0050B1A2 /* SceneDelegate.swift */,
 				9478344F2728C99A0050B1A2 /* ViewController.swift */,
 				947834512728C99A0050B1A2 /* Main.storyboard */,
+				94783483272900BE0050B1A2 /* bleTableViewController.swift */,
 				947834572728C99D0050B1A2 /* Assets.xcassets */,
 				947834592728C99D0050B1A2 /* LaunchScreen.storyboard */,
 				9478345C2728C99D0050B1A2 /* Info.plist */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94783484272900BE0050B1A2 /* bleTableViewController.swift in Sources */,
 				947834562728C99A0050B1A2 /* SportBedBluetoothTester.xcdatamodeld in Sources */,
 				947834502728C99A0050B1A2 /* ViewController.swift in Sources */,
 				9478344C2728C99A0050B1A2 /* AppDelegate.swift in Sources */,
