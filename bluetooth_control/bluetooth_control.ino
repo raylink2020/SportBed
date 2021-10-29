@@ -23,9 +23,8 @@ void setup() {
 
 //BEFORE UPLOADING SKETCH HAVE TXD AND RXD WIRES UNPLUGGED FROM ARDUINO 
 
-// LIGHTS //
 void loop() {
-  if(Serial.available()>0){ //checks if data is coming from serial
+  if(Serial.available()!= 0){ //checks if data is coming from serial
     state = Serial.read(); // reads data from serial port
     Serial.print(state); 
   }
@@ -75,18 +74,35 @@ void loop() {
     stepperleft = LOW;
     stepperright = HIGH;
   }
-  while (stepperright = HIGH){
+  while (stepperright == HIGH){
   digitalWrite(driverDIR, LOW); //change low to high if going in wrong direction, do same for other direction loop.
   digitalWrite(driverPUL, HIGH);
   delayMicroseconds(setspeed);
   digitalWrite(driverPUL, LOW);
   delayMicroseconds(setspeed);
+  if(Serial.available()!= 0){ //checks if data is coming from serial
+    state = Serial.read(); // reads data from serial port
+    Serial.print(state); 
+    }
+  if(state =='X'){
+    stepperright = LOW;
+    }
   }
-  while (stepperleft = HIGH){
+  
+  while (stepperleft == HIGH){
   digitalWrite(driverDIR, HIGH); //change low to high if going in wrong direction, do same for other direction loop.
   digitalWrite(driverPUL, HIGH);
   delayMicroseconds(setspeed);
   digitalWrite(driverPUL, LOW);
   delayMicroseconds(setspeed);
+  if(Serial.available()!= 0){ //checks if data is coming from serial
+    state = Serial.read(); // reads data from serial port
+    Serial.print(state); 
+    }
+  if(state =='X'){
+    stepperleft = LOW;
+    }
   }
+  // LIGHTS // 
+  
 }
